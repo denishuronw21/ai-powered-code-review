@@ -6,7 +6,7 @@ const app =express()
 app.use(cors())
 
 app.get('/',(req,res)=>{
-    res.send("Hello World")   
+    res.json("Hello World")   
 })
 
 app.use(express.json())
